@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {},
+      fontFamily: {
+        sans: ['Inter', 'sans-serif']
+      },
       backgroundImage: {
         'game-gradient':
           'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 67.08%)',
