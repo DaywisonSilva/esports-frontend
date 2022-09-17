@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import Card from '@components/molecules/Card.vue'
+import Card from '@components/molecules/Card/Card.vue'
 const data = {
   cards: [
     {

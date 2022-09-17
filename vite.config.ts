@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: [
-      { find: '@components', replacement: `${process.cwd()}/src/components` }
+      { find: '@components', replacement: `${process.cwd()}/src/components` },
+      { find: '@mocks', replacement: `${process.cwd()}/src/mocks` }
     ]
   }
 })

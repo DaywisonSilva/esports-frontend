@@ -8,14 +8,15 @@
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["vitest/globals", "node"],
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["components/*.vue"]
+      "@components/*": ["components/*.vue"],
+      "@mocks/*": ["mocks/*.ts"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
