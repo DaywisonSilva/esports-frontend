@@ -15,7 +15,10 @@
         link="https://domain/image.png"
       />
     </div>
-    <Banner title="test" subtilte="teste" />
+    <Banner
+      title="Não encontrou seu duo?"
+      subtitle="Publique um anúncio para encontrar novos players!"
+    />
   </main>
 </template>
 
