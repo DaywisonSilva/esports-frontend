@@ -12,13 +12,17 @@
         :alt="card.alt"
         :title="card.title"
         :subtitle="card.subtitle"
+        link="https://domain/image.png"
       />
     </div>
+    <Banner title="test" subtilte="teste" />
   </main>
 </template>
 
 <script setup lang="ts">
 import Card from '@components/molecules/Card/Card.vue'
+import Banner from '@components/molecules/Banner/Banner.vue'
+
 const data = {
   cards: [
     {
@@ -62,9 +66,6 @@ const data = {
 </script>
 
 <style lang="scss" scoped>
-@import 'tailwindcss/utilities';
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
 .main {
   @apply max-w-[1344px] mx-auto flex justify-center items-center flex-col pt-20;
 
@@ -77,7 +78,7 @@ const data = {
   }
 
   .main__listCards {
-    @apply grid grid-cols-6 gap-6 mt-16;
+    @apply grid grid-cols-6 gap-6 mt-16 mb-8;
   }
 }
 </style>

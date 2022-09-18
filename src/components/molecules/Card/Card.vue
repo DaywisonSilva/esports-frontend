@@ -1,5 +1,5 @@
 <template>
-  <a href="" class="card">
+  <a :href="link" class="card">
     <img :src="imgSrc" :alt="alt" />
     <div class="card__info">
       <strong class="card__title">{{ title }}</strong>
@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{ imgSrc: string; alt: string; title: string; subtitle: string }>()
+defineProps<{ imgSrc: string; alt: string; title: string; subtitle: string, link: string }>()
 </script>
 
 <style lang="scss" scoped>

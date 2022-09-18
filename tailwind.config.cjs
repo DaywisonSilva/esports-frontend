@@ -8,6 +8,8 @@ module.exports = {
         sans: ['Inter', 'sans-serif']
       },
       backgroundImage: {
+        'banner-gradient':
+          'linear-gradient(to right, #9572FC, #43E7AD, #E2D45C)',
         'game-gradient':
           'linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 67.08%)',
         'nlw-gradient':
